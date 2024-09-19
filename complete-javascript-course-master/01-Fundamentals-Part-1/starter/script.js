@@ -1,31 +1,31 @@
 //fundamental of js part 1
+/*
+let js = 'amazing';
+if (js === 'amazing') alert("Javascript is a Good programing Language!");
 
-// let js = 'amazing';
-// if (js === 'amazing') alert("Javascript is a Good programing Language!");
+console.log(40 + 8 + 23 - 10);
 
-// console.log(40 + 8 + 23 - 10);
+console.log('Rishi');
+console.log(45);
+********************
 
-// console.log('Rishi');
-// console.log(45);
-//********************
+variable example
+let firstname = 'Rishi';
+let lastName = 'Keshri'
+console.log(firstname + " " + lastName);
+********************
 
-//variable example
-// let firstname = 'Rishi';
-// let lastName = 'Keshri'
-// console.log(firstname + " " + lastName);
-//********************
+Camel case example
 
-// Camel case example
+let first = 'rishikant';
+let middleName = 'Kumar'
+let Last_name = 'Keshri'
+let age$ = 24;
 
-// let first = 'rishikant';
-// let middleName = 'Kumar'
-// let Last_name = 'Keshri'
-// let age$ = 24;
+console.table([first, middleName, Last_name, age$]);
+******************************
 
-// console.table([first, middleName, Last_name, age$]);
-// ******************************
 
-/**
 let 3year = 3;
 o/p - > starter\script.js:32
 let 3year = 3;
@@ -41,22 +41,46 @@ SyntaxError: Unexpected token 'function'
 
 let pi = 3.1415; //define already
 let PI = 3.1415;
- */
-//********************************/
 
-//Bad code pratice  ---> avoid this kind of mistake 
+********************************
+
+    Bad code pratice-- -> avoid this kind of mistake
 let job1 = 'operation executive';
-let job2 = 'aenior system associate';
+let job2 = 'senior system associate';
 
-//Good pratice of code   ----> always use this kind of code pratice 
+Good pratice of code----> always use this kind of code pratice
 
 let myFirstJob = 'Operation executive';
 let myCurrentjob = 'Senior system associate';
 
-console.log('testing');
+console.table([job1, job2, myFirstJob, myCurrentjob]);
 
-console.log("Rishikanrrrrrrrrrrrrrrr");
+*/
+//Data types
+/*
+1) Number   12345678
+2) Boolean  -> true false
+3) String   'Rishi'
+4) undefined let x;
+5) Null
+6) Symbol
+7) Bigint
 
+//let const var
 
+let age = 24;
+age = 25;
+console.log(age);  // value we can change as per requirement
 
+const x = 34;
+x = 35;
+console.log(x); // can not possiblr to vhsnge the value in const keyword
+// o/p ----> script.js:76
+// x = 35;
+//   ^
+// TypeError: Assignment to constant variable.
 
+var job = 'java developer'
+job = 'full stack developer'
+console.log(job);
+*/
