@@ -84,3 +84,35 @@ var job = 'java developer'
 job = 'full stack developer'
 console.log(job);
 */
+// operators
+// arthmetic operator + - / * % **  2 ** 2 = 4 2 power 2
+
+
+// const ageRishi = 24;
+// const ageShambhu = 32;
+// const sum = ageRishi + ageShambhu;
+// console.log(sum);
+
+// const sub = ageRishi - ageShambhu;
+// console.log(sub)
+
+// const mul = ageRishi * ageShambhu;
+// console.log(mul);
+
+// const div = ageRishi / ageShambhu;
+// console.log(div);
+
+// o/p 56
+//     -8
+//     768
+//     0.75
+
+// assignment operator =
+// let x = 5 + 5;     // x = 10
+// x += 10            // x = x + 10 = 20
+// console.log(x);
+
+//Comparison operator > < >= <=
+
+
+
