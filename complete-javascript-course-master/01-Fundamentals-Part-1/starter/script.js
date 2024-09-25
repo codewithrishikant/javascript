@@ -114,5 +114,28 @@ console.log(job);
 
 //Comparison operator > < >= <=
 
+// const now = 2024;
+// const ageRishi = now-2000;
+// const ageShambhu =now-1990;
+// console.log(now-2000>now-1990);
 
 
+// console.log(25-10-5); //left to right operation
+// let x,y;
+// x=y=25-10-5
+// console.log(x,y);
+
+//Coding challenge
+// const markMass = 78;
+// const markHeight = 1.69;
+// const johnMass = 92;
+// const johnheight = 1.95;
+
+// const markBMI = markMass / markHeight ** 2
+// const johnBMI = johnMass / (johnheight*johnheight);
+// let markHeigherBMi = markBMI > johnBMI;
+// console.log(markHeigherBMi);
+// console.log(markBMI,johnBMI);
+
+
+// String and Template
