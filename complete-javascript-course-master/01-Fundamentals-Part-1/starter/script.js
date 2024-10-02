@@ -106,7 +106,7 @@ console.log(job);
 //     -8
 //     768
 //     0.75
-
+//******************************* */
 // assignment operator =
 // let x = 5 + 5;     // x = 10
 // x += 10            // x = x + 10 = 20
@@ -137,5 +137,45 @@ console.log(job);
 // console.log(markHeigherBMi);
 // console.log(markBMI,johnBMI);
 
-
+//*********************************** */
 // String and Template
+// let firstname = 'Rishikant'
+// let job = 'Seniour system Assosiate'
+// let birthYear = 2000;
+// let year = 2024;
+//String example before es6
+//let Rishikant = "I'm " + firstname + ', a ' + (year - birthYear) + 'years old ' + job + '!' ;
+// console.log(Rishikant);
+//now Template after es6
+// let newRishi = `I'm ${firstname}, a ${year - birthYear} year old ${job} !`;
+// console.log(newRishi);
+// console.log(`just a regular string.........`);
+//  
+/******** */
+//if else statement 
+// const age = 15;
+// const isOldEnough = age >= 18;
+// if (isOldEnough) {
+//     console.log('Rishikant can start driving license 😊');
+//     //no output
+// }
+// const age1 = 19;
+// const isOldEnough1 = age1 >= 18;
+// if (isOldEnough1) {
+//     console.log('Rishikant can start driving license 😊');
+//  //output Rishikant can start driving license.
+// }
+
+//ifelse
+
+const age = 15;
+if (age >= 18) {
+    console.log("Rishi can start driving");
+} else {
+    const yearsLeft = 18 - age;
+    console.log(`Rishi is too young. wait for anyother ${yearsLeft} years ^_____^`);
+
+}
+
+
+
