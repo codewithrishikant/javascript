@@ -125,7 +125,7 @@ console.log(job);
 // x=y=25-10-5
 // console.log(x,y);
 
-//Coding challenge
+//Coding challenge   1
 // const markMass = 78;
 // const markHeight = 1.69;
 // const johnMass = 92;
@@ -167,15 +167,72 @@ console.log(job);
 // }
 
 //ifelse
+/**
+ if(){
+ }else{
+ }
+ */
+// const age = 15;
+// if (age >= 18) {
+//     console.log("Rishi can start driving");
+// } else {
+//     const yearsLeft = 18 - age;
+//     console.log(`Rishi is too young. wait for anyother ${yearsLeft} years ^_____^`);
+// }
+// const birthYear = 2000;
+// let century;
+// if (birthYear <= 2000) {
+//     century = 20;
+// } else {
+//     century = 21
+// }
+// console.log(century);
 
-const age = 15;
-if (age >= 18) {
-    console.log("Rishi can start driving");
-} else {
-    const yearsLeft = 18 - age;
-    console.log(`Rishi is too young. wait for anyother ${yearsLeft} years ^_____^`);
+//Coding challenge   2
+/* 1.Print a nice output to the console, saying who has the higher BMI. The message
+is either "Mark's BMI is higher than John's!" or "John's BMI is higher than Mark's!" */
 
-}
+// const markMass = 95;
+// const markHeight = 1.88;
+// const johnMass = 85;
+// const johnheight = 1.76;
 
+// const markBMI = markMass / markHeight ** 2
+// const johnBMI = johnMass / (johnheight * johnheight);
+// console.log(markBMI, johnBMI);
 
+// if(markBMI > johnBMI){
+// console.log("mark's BMI is higher than john's!");
+// }else{
+//     console.log("john's BMI is higher than Mark's !");
 
+// }
+
+/*2. Use a template literal to include the BMI values in the outputs. Example: "Mark's
+BMI (28.3) is higher than John's (23.9)!"*/
+// if (markBMI > johnBMI) {
+//     console.log(`mark's BMI (${markBMI})is higher than john's (${johnBMI})!`);
+// } else {
+//     console.log(`john's BMI (${johnBMI}) is higher than Mark's (${markBMI})!`);
+
+// }
+/***********************************/
+
+//Type Conversion
+// const inputYear = "2000";
+// console.log(Number(inputYear), inputYear);
+
+// console.log(inputYear + 18);
+
+// console.log(Number (inputYear) + 18);
+// console.log(Number('John'));
+
+// console.log(typeof NaN)
+
+// console.log(String(23), 23);
+
+//type coercion
+// console.log('I am ' + 23 + '  years old')
+// console.log('23' - '10' - 3);
+// console.log('23' * '2');
+// console.log('23' / '2');
